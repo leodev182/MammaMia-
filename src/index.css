@@ -1,0 +1,72 @@
+.active {
+  display: grid;
+  place-items: center;
+  margin: 0px 15px;
+  font-size: 1.8rem;
+  color: yellow;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 3px;
+}
+
+.styless {
+  display: grid;
+  place-items: center;
+  margin: 0px 15px;
+  font-size: 1.5rem;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.logo {
+  height: 5rem;
+}
+
+.gallery {
+  padding: 1.5rem;
+  overflow-y: auto;
+  background-image: url("../public/fondogallery.png");
+}
+
+.unFocus {
+  background: transparent;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.center {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ntfoundimg {
+  height: 100%;
+  width: 100%;
+  background: url("../public/onpiece.png");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  display: grid;
+  place-items: center;
+}
+
+.bgHero {
+  height: 60%;
+  width: 100%;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/6474be99d9821c316e05cc76/3ec00f7f-4a38-44fb-aff2-717bd1710ea9/Hero+Shot.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
+}
+
+.titleHero {
+  font-size: 3rem;
+  border: 1px dashed black;
+  color: black;
+  text-shadow: 0 0 10px rgba(255, 51, 0, 0.938), 0 0 20px rgb(255, 196, 0),
+    0 0 30px rgb(255, 251, 0);
+}
